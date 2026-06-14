@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register</title>
+<style>
+body{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+background:#f4f4f4;
+font-family:Arial;
+}
+.box{
+background:white;
+padding:30px;
+width:300px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+input{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+button{
+width:100%;
+padding:10px;
+background:green;
+color:white;
+border:none;
+}
+</style>
+</head>
+<body>
+
+<div class="box">
+<h2>Register</h2>
+
+<input
+type="text"
+placeholder="Username">
+
+<input
+type="email"
+placeholder="Email">
+
+<input
+type="password"
+placeholder="Password">
+
+<button onclick="register()">
+Register
+</button>
+</div>
+
+<script>
+function register(){
+alert("Registration Successful");
+window.location.href =
+"login.html";
+}
+</script>
+
+</body>
+</html>
